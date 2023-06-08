@@ -181,8 +181,60 @@ border-radius: 2px;
     }
 }
 
+.about-section h1{
+   
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 85px;
+
+color: #000000;
+
+}
+.about-section h2{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
 
 
+color: #272142;
+
+}
+
+.about-section p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: rgba(39, 33, 66, 0.7);
+
+}
+.about-section a{
+    
+justify-content: center;
+align-items: center;
+padding: 18px 30px;
+gap: 10px;
+color: antiquewhite;
+background: #6C63FF;
+border-radius: 4px;
+}
+
+
+.about-section-description{
+    margin: 30px;
+}
 
 
 
