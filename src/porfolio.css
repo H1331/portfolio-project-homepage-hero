@@ -258,6 +258,18 @@ color: #000000;
 
 }
 
+.contact h3{
+    font-family: var(--default-font-family);
+font-style: normal;
+font-weight: 700;
+
+line-height: 85px;
+
+color: #000000;
+}
+
+
+
 
 
 
