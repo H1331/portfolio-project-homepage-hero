@@ -290,14 +290,77 @@ nav a{
 
     color: #000000;
     transition: all 100ms ease-in-out;
+    font-family: var(--default-font-family);
+    font-style: normal;
+    font-weight: 700;
 }
 
 nav a:hover{
     color:var(--branding-color);
+}
+
+.foot-sector{
+    display: flex;
+    justify-content:space-evenly;
    
+    background: var(--secondary-color);
+    border-radius: 20px;
+    padding: 25px 40px ;
+    margin: 20px 80px;
+    
 }
 
 
+.foot-sector a{
+    color: rgb(20, 16, 12);
+    background-color: var(--branding-color);
+    font-family: var(--default-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+   color: #FFFFFF;
+    }
+
+    .email-link a{
+width: 278px;
+height: 36px;
+font-family: var(--default-font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+color: #131111;
+text-decoration: none;
+
+
+    }
+
+
+    .icon{
+display: flex;
+
+justify-content: center;
+
+}
+
+footer i{
+    margin-left: 18px;
+    font-size: 18px;
+    background-color: var(--secondary-color);
+padding: 15px;
+border-radius: 50%;
+transition: all 100ms ease-in-out;
+}
+footer i:hover{
+    background-color: var(--branding-color);
+    color: var(--secondary-color);
+}
+@media(max-width:576px) {
+    .foot-section-right a{
+margin-top: 40px;
+    }
+}
 
 
 
